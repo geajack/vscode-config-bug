@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "main": "extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {
+        "configuration": {
+            "title": "Example",
+            "properties": {
+                "example.value": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
